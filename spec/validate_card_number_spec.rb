@@ -1,3 +1,5 @@
+require "./validate_card_number"
+
 RSpec.describe "CardNumberValidator" do
     describe "#card_number_valid?" do
         valid_card_number = "6014355510000028"
